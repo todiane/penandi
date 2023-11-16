@@ -28,9 +28,15 @@ def notebooks():
 def articles():
     return render_template("articles.html")
 
+
 @app.route("/unleasing-creativity.html")
 def creativity():
     return render_template("unleasing-creativity.html")
+
+
+@app.route("/memoir-stories.html")
+def stories():
+    return render_template("memoir-stories.html")
 
 
 if __name__ == "__main__":
