@@ -1,3 +1,11 @@
+core.Microsoft*
+core.mongo*
+core.python*
+env.py
+node_modules/
+.github/
+cloudinary_python.txt
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

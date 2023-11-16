@@ -25,12 +25,12 @@
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="{{ url_for('index') }}">Home</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
-                            <li class="nav-item"><a class="nav-link" href="{{ url_for('blog') }}">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="{{ url_for('articles') }}">Articles</a></li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                                <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Products</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
-                                    <li><a class="dropdown-item" href="{{ url_for('gcse-english') }}">GCSE English</a></li>
-                                    <li><a class="dropdown-item" href="{{ url_for('paperback-notebooks') }}">Paperback Notebooks</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('gcse_english') }}">GCSE English</a></li>
+                                    <li><a class="dropdown-item" href="{{ url_for('notebooks') }}">Paperback Notebooks</a></li>
                                 </ul>
                             </li>
                         </ul>

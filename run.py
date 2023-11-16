@@ -14,18 +14,18 @@ def about():
     return render_template("about.html")
 
 
-@app.route("/gcse-english")
-def about():
+@app.route("/gcse-english.html")
+def gcse_english():
     return render_template("gcse-english.html")
 
 
-@app.route("/paperback-notebooks")
-def about():
-    return render_template("paperback-notebooks.html")
+@app.route("/notebooks.html")
+def notebooks():
+    return render_template("notebooks.html")
 
 
-@app.route("/articles.html")
-def blog():
+@app.route("/articles")
+def articles():
     return render_template("articles.html")
 
 

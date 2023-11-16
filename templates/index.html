@@ -2,47 +2,49 @@
 
 {% block content %} 
             <!-- Header-->
-            <header class="bg-dark py-5">
+            <header class="py-5" style="background-color: #fff;">
                 <div class="container px-5">
                     <div class="row gx-5 align-items-center justify-content-center">
                         <div class="col-lg-8 col-xl-7 col-xxl-6">
                             <div class="my-5 text-center text-xl-start">
-                                <h1 class="display-5 fw-bolder text-white mb-2">Paperback Notebooks, Journals & Books</h1>
-                                <p class="lead fw-normal text-white-50 mb-4">We create products for people who enjoy putting pen to paper and enjoy holding a book! Find us on Amazon</p>
+                                <h1 class="display-5 fw-bolder text-dark mb-2">Paperback Notebooks, Journals & Books</h1>
+                                <p class="lead fw-normal text-dark-50 mb-4">We create products for people who enjoy putting pen to paper and enjoy holding a book! Find us on Amazon</p>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
-                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://www.amazon.co.uk/stores/Pen-And-I-Publishing/author/B0849ZQQS7">Amazon UK</a>
-                                    <a class="btn btn-outline-light btn-lg px-4" href="https://www.amazon.com/stores/Pen-And-I-Publishing/author/B0849ZQQS7">Amazon USA</a>
+                                    <a class="btn btn-warning btn-lg px-4 me-sm-3" href="https://www.amazon.co.uk/stores/Pen-And-I-Publishing/author/B0849ZQQS7" target="_blank" rel="nofollow">Amazon UK</a>
+                                    <a class="btn btn-outline-secondary btn-lg px-4" href="https://www.amazon.com/stores/Pen-And-I-Publishing/author/B0849ZQQS7" target="_blank" rel="nofollow">Amazon USA</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"><img class="img-fluid rounded-3 my-5" src="{{url_for('static', filename='paperback-notebooks.png')}}" alt="buy paperback notebooks" /></div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+                        <img class="img-fluid rounded-3 my-5" src="https://m.media-amazon.com/images/S/amzn-author-media-prod/nh6tlt7drqjd9164ni1jknnijs._SY500_CR0%2C0%2C500%2C500_.jpg" 
+                        alt="buy paperback notebooks" width="300" height="300" /></div>
                     </div>
                 </div>
             </header>
             <!-- Features section-->
-            <section class="py-5" id="features">
+            <section class="py-5 bg-light" id="features" >
                 <div class="container px-5 my-5">
                     <div class="row gx-5">
-                        <div class="col-lg-4 mb-5 mb-lg-0"><h2 class="fw-bolder mb-0">“Find a quiet place, use a humble pen.” - Paul Simon</h2></div>
+                        <div class="col-lg-4 mb-5 mb-lg-0"><h4 class="fw-bolder mb-0">Writing in a notebook or journal is a simple yet powerful tool for personal development and emotional well-being. It servers as a personal archive, capturing thoughts, experiences, and emotions, allowing for self-reflection and growth.</h4></div>
                         <div class="col-lg-8">
                             <div class="row gx-5 row-cols-1 row-cols-md-2">
                                 <div class="col mb-5 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
+                                    <div class="feature bg-warning bg-gradient text-white rounded-3 mb-3"><i class="bi bi-collection"></i></div>
                                     <h2 class="h5">Write in a journal</h2>
                                     <p class="mb-0">Our journals are for you if you, or someone you know, enjoys putting their thoughts down on paper.</p>
                                 </div>
                                 <div class="col mb-5 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-pen"></i></div>
+                                    <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-pen"></i></div>
                                     <h2 class="h5">Use A Notebook</h2>
                                     <p class="mb-0">A notebook is wonderful for something as simple as writing a list or writing your story.</p>
                                 </div>
                                 <div class="col mb-5 mb-md-0 h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-cart"></i></div>
+                                    <div class="feature bg-secondary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-cart"></i></div>
                                     <h2 class="h5">Buy on Amazon</h2>
                                     <p class="mb-0">Based in the UK but available on all Amazon sites. Search for us using – B0849ZQQS7</p>
                                 </div>
                                 <div class="col h-100">
-                                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-book"></i></div>
+                                    <div class="feature bg-warning bg-gradient text-white rounded-3 mb-3"><i class="bi bi-book"></i></div>
                                     <h2 class="h5">Read a Book</h2>
                                     <p class="mb-0">The world may be digital but there is something magical about losing yourself in a classic book.</p>
                                 </div>
@@ -51,27 +53,8 @@
                     </div>
                 </div>
             </section>
-            <!-- Testimonial section-->
-            <div class="py-5 bg-light">
-                <div class="container px-5 my-5">
-                    <div class="row gx-5 justify-content-center">
-                        <div class="col-lg-10 col-xl-7">
-                            <div class="text-center">
-                                <div class="fs-4 mb-4 fst-italic">“"For while the tale of how we suffer, and how we are delighted, and how we may triumph is never new, it always must be heard. 
-                                    There isn't any other tale to tell, it's the only light we've got in all this darkness." </div>
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <div class="fw-bold">
-                                        James Baldwin
-                                        <span class="fw-bold text-primary mx-1">/</span>
-                                        Writer (Sonny's Blues)
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Blog preview section-->
+
+            <!-- Best sellers preview section-->
             <section class="py-5">
                 <div class="container px-5 my-5">
                     <div class="row gx-5 justify-content-center">
@@ -87,7 +70,7 @@
                             <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="https://m.media-amazon.com/images/I/61ysA8FQv2L._SL1413_.jpg" alt="Macbeth" />
                                 <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">GCSE Book</div>
+                                    <div class="badge bg-secondary bg-gradient rounded-pill mb-2">GCSE Book</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="https://www.amazon.co.uk/dp/B0B9PTXCSZ"><h5 class="card-title mb-3">MACBETH</h5></a>
                                     <p class="card-text mb-0">A GCSE study book for students needing help with Macbeth.</p>
                                 </div>
@@ -104,7 +87,7 @@
                             <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="https://m.media-amazon.com/images/I/61nypavth0L._SL1500_.jpg" alt="paperback notebook" />
                                 <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">Notebook</div>
+                                    <div class="badge bg-secondary bg-gradient rounded-pill mb-2">Notebook</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">LOVE IS LOVE</h5></a>
                                     <p class="card-text mb-0">Enjoy writing your lists, thoughts, ideas, secrets and more in a notebook.</p>
                                 </div>
@@ -120,7 +103,7 @@
                             <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="https://m.media-amazon.com/images/I/41JHv7lluUL.jpg" alt="..." />
                                 <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">Planner</div>
+                                    <div class="badge bg-secondary bg-gradient rounded-pill mb-2">Planner</div>
                                     <a class="text-decoration-none link-dark stretched-link" href="https://www.amazon.co.uk/Intermittent-Fasting-Planner-Paperback-organizer/dp/B084QBY2GF"><h5 class="card-title mb-3">EAT. STOP. REPEAT.</h5></a>
                                     <p class="card-text mb-0">Support your wellness goals with an intermittent fasting planner.</p>
                                 </div>
@@ -133,9 +116,30 @@
                             </div>
                         </div>
                     </div>
-                    <p class="lead fw-normal text-muted mb-5">“Writing is the best way to talk without being interrupted.” – Jules Renard</p>
+    
                 </div>
             </section>
         </main>
+
+            <!-- Testimonial section-->
+            <div class="py-5 bg-light">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="text-center">
+                                <div class="fs-4 mb-4 fst-italic">“"For while the tale of how we suffer, and how we are delighted, and how we may triumph is never new, it always must be heard. 
+                                    There isn't any other tale to tell, it's the only light we've got in all this darkness." </div>
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <div class="fw-bold">
+                                        James Baldwin
+                                        <span class="fw-bold text-warning mx-1">/</span>
+                                        Writer (Sonny's Blues)
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
     
 {% endblock %}
