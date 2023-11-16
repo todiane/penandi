@@ -28,6 +28,10 @@ def notebooks():
 def articles():
     return render_template("articles.html")
 
+@app.route("/unleasing-creativity.html")
+def creativity():
+    return render_template("unleasing-creativity.html")
+
 
 if __name__ == "__main__":
     app.run(
