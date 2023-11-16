@@ -39,6 +39,16 @@ def stories():
     return render_template("memoir-stories.html")
 
 
+@app.route("/memory-memoir.html")
+def memoir():
+    return render_template("memory-memoir.html")
+
+
+@app.route("/paperback-notebooks.html")
+def paperback_notebooks():
+    return render_template("paperback-notebooks.html")
+
+
 if __name__ == "__main__":
     app.run(
         host=os.environ.get("IP", "0.0.0.0"),
