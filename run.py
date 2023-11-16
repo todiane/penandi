@@ -14,9 +14,19 @@ def about():
     return render_template("about.html")
 
 
-@app.route("/blog-home.html")
+@app.route("/gcse-english")
+def about():
+    return render_template("gcse-english.html")
+
+
+@app.route("/paperback-notebooks")
+def about():
+    return render_template("paperback-notebooks.html")
+
+
+@app.route("/articles.html")
 def blog():
-    return render_template("blog-home.html")
+    return render_template("articles.html")
 
 
 if __name__ == "__main__":
