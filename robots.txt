@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:/accounts/
+Sitemap:https://penandi-be55a4501b3e.herokuapp.com/sitemap.xml
