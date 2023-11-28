@@ -3,6 +3,7 @@ from flask import Flask, render_template
 from flask_sitemap import Sitemap
 
 app = Flask(__name__)
+sitemap = Sitemap(app=app)
 
 
 @app.route("/")
@@ -56,10 +57,6 @@ if __name__ == "__main__":
         port=int(os.environ.get("PORT", "5000")),
         debug=True)
 
-
-
-app = Flask(__name__)
-sitemap = Sitemap(app=app)
 
 @app.route('/sitemap.xml')
 def sitemap_xml():
